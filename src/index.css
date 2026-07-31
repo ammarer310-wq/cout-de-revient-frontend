@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #FAF6F0;
+  --color-brown-dark: #2E2118;
+  --color-gold: #C08B2C;
+  --color-terracotta: #B5563C;
+  --color-olive: #5C7A4A;
+  --color-brick: #A33B2C;
+  --color-beige: #E5DCCF;
+
+  --font-serif-custom: "Fraunces", serif;
+  --font-sans-custom: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans-custom);
+  background-color: var(--color-cream);
+  color: var(--color-brown-dark);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif-custom);
+}
